@@ -1,0 +1,346 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "calibri";
+}
+
+.bg-black {
+  background-color: black;
+}
+
+.bg-white {
+  background-color: white;
+}
+
+.bg-green {
+  background-color: #309E72;
+}
+
+.bg-gray {
+  background-color: #E8E8E8;
+}
+
+.text-gray {
+  color: #707070 !important;
+}
+
+.text-green {
+  color: #309E72;
+}
+
+.text-dark {
+  color: black;
+}
+
+.text-light {
+  color: white;
+}
+
+.top-navbar {
+  height: 50px;
+}
+
+.top-navbar p {
+  font-size: 18px;
+}
+
+.navbar {
+  border-bottom: 1px solid black;
+  height: 90px;
+}
+
+.navbar .navbar-nav .nav-link {
+  margin-left: 30px;
+  font-size: 20px;
+}
+
+.navbar .navbar-nav .nav-link:hover {
+  color: #309E72 !important;
+}
+
+.navbar .navbar-nav .active {
+  color: #309E72 !important;
+  font-weight: bold;
+}
+
+.section-header {
+  min-height: 400px;
+  background-repeat: none;
+  background-size: cover;
+}
+
+.section-header .header-content {
+  padding-top: 96px;
+}
+
+.section-header .header-content h1 {
+  font-size: 50px;
+  font-weight: lighter;
+}
+
+.section-header .header-content p {
+  font-size: 20px;
+}
+
+.section-header .header-content .create-now {
+  margin-top: 45px;
+  width: 200px;
+  height: 40px;
+  margin-bottom: 123px;
+}
+
+.section-header .header-content .create-now:hover {
+  color: #309E72 !important;
+  background-color: white;
+}
+
+.divide {
+  min-height: 150px;
+  padding-top: 33px;
+  padding-bottom: 33px;
+}
+
+.divide h2 {
+  font-size: 35px;
+  font-weight: lighter;
+}
+
+.divide p {
+  font-size: 20px;
+}
+
+.section-why-us {
+  min-height: 350px;
+}
+
+@media (min-width: 992px) {
+  .section-why-us {
+    height: 350px;
+  }
+}
+
+.section-why-us h2 {
+  padding-top: 31px;
+}
+
+.section-why-us .card-why {
+  margin-top: 82px;
+  margin-bottom: 20px;
+  height: 277px;
+  font-size: 25px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.section-why-us .card-why .title {
+  font-weight: bold;
+}
+
+.parallax {
+  /* Set a specific height */
+  min-height: 500px;
+  max-height: 1000px;
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.parallax #collection {
+  font-size: 45px;
+  padding-top: 228px;
+  font-weight: bold;
+}
+
+.divide-connected {
+  min-height: 150px;
+  padding-top: 33px;
+  padding-bottom: 33px;
+}
+
+.divide-connected h2 {
+  font-size: 25px;
+  font-weight: lighter;
+}
+
+@media (min-width: 992px) {
+  .divide-connected h2 {
+    font-size: 35px;
+  }
+}
+
+.divide-connected p {
+  font-size: 18px;
+}
+
+@media (min-width: 992px) {
+  .divide-connected p {
+    font-size: 20px;
+  }
+}
+
+.divide-connected .btn-text-us {
+  width: 100px;
+  height: 40px;
+}
+
+@media (min-width: 992px) {
+  .divide-connected .btn-text-us {
+    width: 270px;
+  }
+}
+
+.divide-connected .btn-text-us:hover {
+  color: #309E72 !important;
+  background-color: white;
+}
+
+.collection-section {
+  min-height: 1000px;
+  padding-top: 35px;
+  padding-bottom: 30px;
+}
+
+.collection-section h2 {
+  font-size: 35px;
+  font-weight: bold;
+}
+
+.collection-section .collection-content {
+  margin-top: 45px;
+  margin-bottom: 45px;
+  min-height: 500px;
+}
+
+.collection-section .collection-content .collection-card {
+  margin-bottom: 45px;
+}
+
+.collection-section .collection-content .collection-card p {
+  font-size: 20px;
+}
+
+.collection-section .collection-content .collection-card .collection-image {
+  width: 100%;
+  height: 287px;
+}
+
+.collection-section .collection-content .collection-card .btn-make-this-one {
+  width: 150px;
+}
+
+.collection-section .collection-content .collection-card .btn-make-this-one:hover {
+  color: #309E72 !important;
+  background-color: gainsboro;
+}
+
+.make-your-own-section {
+  min-height: 230px;
+  padding-top: 39px;
+  padding-bottom: 70px;
+}
+
+.make-your-own-section h2 {
+  font-size: 35px;
+  font-weight: lighter;
+}
+
+.make-your-own-section .btn-design-you-want {
+  width: 300px;
+}
+
+.make-your-own-section .btn-design-you-want:hover {
+  color: #309E72 !important;
+  background-color: white;
+}
+
+.gallery-section {
+  margin-top: 50px;
+  margin-bottom: 50px;
+  /* Create two equal columns that sits next to each other */
+}
+
+.gallery-section h2 {
+  font-weight: lighter;
+  padding-bottom: 10px;
+}
+
+.gallery-section .row {
+  display: -ms-flexbox;
+  /* IE 10 */
+  display: -webkit-box;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  /* IE 10 */
+  flex-wrap: wrap;
+  padding: 0 4px;
+}
+
+.gallery-section .column {
+  -webkit-box-flex: 50%;
+      -ms-flex: 50%;
+          flex: 50%;
+  padding: 0 4px;
+}
+
+@media (min-width: 992px) {
+  .gallery-section .column {
+    -ms-flex: 25%;
+    /* IE 10 */
+    -webkit-box-flex: 25%;
+            flex: 25%;
+  }
+}
+
+.gallery-section .column img {
+  margin-top: 8px;
+  vertical-align: middle;
+}
+
+.contact-section .contact-content {
+  margin-top: 95px;
+  margin-bottom: 85px;
+}
+
+.contact-section .contact-content h2 {
+  font-weight: bold;
+  font-size: 35px;
+  padding-bottom: 45px;
+}
+
+.footer-detail {
+  border-top: 1px solid black;
+  min-height: 300px;
+}
+
+.footer-detail .footer-content {
+  margin-top: 60px;
+  padding-bottom: 100px !important;
+}
+
+.footer-detail .footer-content p {
+  margin-top: -7px;
+  font-size: 20px !important;
+}
+
+.footer-detail .footer-content .list-item {
+  list-style: none;
+  text-decoration: none;
+  margin-bottom: 8px;
+  font-size: 20px;
+}
+
+.footer-detail .footer-content a {
+  text-decoration: none;
+  font-size: 20px !important;
+}
+
+.copyrights {
+  min-height: 50px;
+  font-size: 15px;
+}
+/*# sourceMappingURL=style.css.map */

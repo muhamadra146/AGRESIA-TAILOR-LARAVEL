@@ -1,0 +1,309 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: "calibri";
+}
+
+.bg-black {
+    background-color: black;
+}
+
+.bg-white {
+    background-color: white;
+}
+
+.bg-green {
+    background-color: #309E72;
+}
+
+.bg-gray {
+    background-color: #E8E8E8;
+}
+
+.text-gray {
+    color: #707070 !important;
+}
+
+.text-green {
+    color: #309E72;
+}
+
+.text-dark {
+    color: black;
+}
+
+.text-light {
+    color: white;
+}
+
+// navbar
+.top-navbar {
+    height: 50px;
+    p {
+        font-size: 18px;
+    }
+}
+
+.navbar {
+    border-bottom: 1px solid black;
+    height: 90px;
+    .navbar-nav {
+        .nav-link {
+            margin-left: 30px;
+            font-size: 20px;
+            &:hover {
+                color: #309E72 !important;
+            }
+        }
+        .active {
+            color: #309E72 !important;
+            font-weight: bold;
+        }
+    }
+}
+
+// end of navbar
+// header 
+.section-header {
+    min-height: 400px;
+    background-repeat: none;
+    background-size: cover;
+    .header-content {
+        padding-top: 96px;
+        h1 {
+            font-size: 50px;
+            font-weight: lighter;
+        }
+        p {
+            font-size: 20px;
+        }
+        .create-now {
+            margin-top: 45px;
+            width: 200px;
+            height: 40px;
+            margin-bottom: 123px;
+            &:hover {
+                color: #309E72 !important;
+                background-color: white;
+            }
+        }
+    }
+}
+
+// end of header
+// divide 
+.divide {
+    min-height: 150px;
+    padding-top: 33px;
+    padding-bottom: 33px;
+    h2 {
+        font-size: 35px;
+        font-weight: lighter;
+    }
+    p {
+        font-size: 20px;
+    }
+}
+
+// end of divide 
+// why us?
+.section-why-us {
+    min-height: 350px;
+    @media (min-width: 992px) {
+        height: 350px;
+    }
+    h2 {
+        padding-top: 31px;
+    }
+    .card-why {
+        margin-top: 82px;
+        margin-bottom: 20px;
+        height: 277px;
+        font-size: 25px;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        .title {
+            font-weight: bold;
+        }
+    }
+}
+
+// end of divide 
+// parallax section 
+.parallax {
+    /* Set a specific height */
+    min-height: 500px;
+    max-height: 1000px;
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    #collection {
+        font-size: 45px;
+        padding-top: 228px;
+        font-weight: bold;
+    }
+}
+
+// end of parallax
+// divide connected
+.divide-connected {
+    min-height: 150px;
+    padding-top: 33px;
+    padding-bottom: 33px;
+    h2 {
+        font-size: 25px;
+        font-weight: lighter;
+        @media (min-width: 992px) {
+            font-size: 35px;
+        }
+    }
+    p {
+        font-size: 18px;
+        @media (min-width: 992px) {
+            font-size: 20px;
+        }
+    }
+    .btn-text-us {
+        width: 100px;
+        @media (min-width: 992px) {
+            width: 270px;
+        }
+        height: 40px;
+        &:hover {
+            color: #309E72 !important;
+            background-color: white;
+        }
+    }
+}
+
+// end of divide connected
+// collection section 
+.collection-section {
+    min-height: 1000px;
+    padding-top: 35px;
+    padding-bottom: 30px;
+    h2 {
+        font-size: 35px;
+        font-weight: bold;
+    }
+    .collection-content {
+        margin-top: 45px;
+        margin-bottom: 45px;
+        min-height: 500px;
+        .collection-card {
+            margin-bottom: 45px;
+            p {
+                font-size: 20px;
+            }
+            .collection-image {
+                width: 100%;
+                height: 287px;
+            }
+            .btn-make-this-one {
+                width: 150px;
+                &:hover {
+                    color: #309E72 !important;
+                    background-color: gainsboro;
+                }
+            }
+        }
+    }
+}
+
+// end of collection 
+// own design
+.make-your-own-section {
+    min-height: 230px;
+    padding-top: 39px;
+    padding-bottom: 70px;
+    h2 {
+        font-size: 35px;
+        font-weight: lighter;
+    }
+    .btn-design-you-want {
+        width: 300px;
+        &:hover {
+            color: #309E72 !important;
+            background-color: white;
+        }
+    }
+}
+
+// end of own design
+.gallery-section {
+    margin-top: 50px;
+    margin-bottom: 50px;
+    h2 {
+        font-weight: lighter;
+        padding-bottom: 10px;
+    }
+    .row {
+        display: -ms-flexbox;
+        /* IE 10 */
+        display: flex;
+        -ms-flex-wrap: wrap;
+        /* IE 10 */
+        flex-wrap: wrap;
+        padding: 0 4px;
+    }
+    /* Create two equal columns that sits next to each other */
+    .column {
+        flex: 50%;
+        @media (min-width: 992px) {
+            -ms-flex: 25%;
+            /* IE 10 */
+            flex: 25%;
+        }
+        padding: 0 4px;
+    }
+    .column img {
+        margin-top: 8px;
+        vertical-align: middle;
+    }
+}
+
+.contact-section {
+    .contact-content {
+        margin-top: 95px;
+        margin-bottom: 85px;
+        h2 {
+            font-weight: bold;
+            font-size: 35px;
+            padding-bottom: 45px;
+        }
+    }
+}
+
+// footer 
+.footer-detail {
+    border-top: 1px solid black;
+    min-height: 300px;
+    .footer-content {
+        margin-top: 60px;
+        padding-bottom: 100px !important;
+        p {
+            margin-top: -7px;
+            font-size: 20px !important;
+        }
+        .list-item {
+            list-style: none;
+            text-decoration: none;
+            margin-bottom: 8px;
+            font-size: 20px;
+        }
+        a {
+            text-decoration: none;
+            font-size: 20px !important;
+        }
+    }
+}
+
+.copyrights {
+    min-height: 50px;
+    font-size: 15px;
+}
